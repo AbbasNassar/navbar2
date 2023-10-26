@@ -1,0 +1,68 @@
+/*Public*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.clr{
+    clear: both;
+}
+
+/*Private*/
+.navbar {
+    width: 800;
+    height: 800;
+    background-color: rgb(24, 101, 100);
+}
+.container {
+    width: 90%;
+    height: 30px;
+
+}
+.Logo img{
+    margin-left: 10%;
+    box-sizing: border-box;
+    width: 10%;
+    float: left;
+
+}
+.List ul{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.List li{
+    box-sizing: border-box;
+    padding-left: 20px;
+    float: right;
+    color: rgb(255, 255, 255);
+}
+.portfolio{
+    height: fit-content;
+    background-color: rgb(6, 226, 242);
+}
+.headline h1{
+    width: fit-content;
+    margin: auto;
+}
+.text p {
+    width: fit-content;
+    margin: auto;
+    font-family: monospace;
+    font-weight: 900;
+}
+.products ul{
+    list-style: none;
+}
+.container2{
+    width: 90%;
+}
+.products{
+    margin-left: 10%;
+    height: auto;
+}
+.products img{
+    padding-right: 10px;
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    background-color: rgb(75, 13, 2);
+}
